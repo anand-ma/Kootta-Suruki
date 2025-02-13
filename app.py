@@ -3,6 +3,7 @@ from openai import OpenAI
 from pathlib import Path
 import tempfile
 import time
+import os
 
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
